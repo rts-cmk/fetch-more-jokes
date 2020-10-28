@@ -12,7 +12,7 @@ I `index.html` skal der være en søge-formular. Den skal indeholde et søgefelt
 
 På `search-results.html` skal der være et område, fx en `<div>`, hvor du kan udskrive søgeresultaterne.
 
-I `app.js` skal du lave en funktion, som indeholder et fetch-kald til `https://icanhazdadjoke.com/j/search?term=x` hvor du udskifter `x` med det søgeord, som brugeren udfylder i søgeformularen på `index.html`.
+I `app.js` skal du lave en funktion, som indeholder et fetch-kald til `https://icanhazdadjoke.com/search?term=x` hvor du udskifter `x` med det søgeord, som brugeren udfylder i søgeformularen på `index.html`.
 
 Søgeresultaterne skal skrives ud som en liste vha. DOM-manipulation. Husk at udsætte side-effekterne til så sent som muligt.
 
